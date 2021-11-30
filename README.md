@@ -9,8 +9,23 @@ Beta testers recommended a few changes to take the PlanMyTrip app to the next le
 
 ## Results
 ### Weather Database
-weatherpy_vacation.csv
-WeatherPy_vacation_map.png
+
+The weather data is retrieved for all identified cities through a user request to the OpenWeatherMap API.
+
+
+<img width="919" alt="Screen Shot 2021-11-30 at 5 41 08 PM" src="https://user-images.githubusercontent.com/92277581/144145681-f29d8f31-04f0-4fe9-b967-646b45795897.png">
+
+
 ### Vacation Search
 
+PlanMyTrip app generates a customer travel destinations map as per user's weather preference inputs, using Jupyter's gmaps plugin and the Google Maps and Places API.
+
+
+<img width="1072" alt="WeatherPy_vacation_map" src="https://user-images.githubusercontent.com/92277581/144145566-0a62ab92-a914-4f84-b57d-fe0d3c8844a8.png">
+
 ### Vacation Itinerary
+
+Using Google Maps Directions API, the app generates a travel route between 4 cities selected by the user.
+
+<img width="976" alt="Screen Shot 2021-11-29 at 8 51 48 PM" src="https://user-images.githubusercontent.com/92277581/144145607-2137791a-4cbf-4528-a86b-0c2722867e89.png">
+
